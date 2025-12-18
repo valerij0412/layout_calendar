@@ -8,11 +8,9 @@ const basic = {
   ...basicScenario,
   label: 'Elementary test',
   selectors: ['body'],
-  removeSelectors: [
-    'h1',
-  ],
+  removeSelectors: ['h1'],
   misMatchThreshold: 0.5,
-  referenceUrl: basicScenario.referenceUrl + '/calendar/',
+  referenceUrl: 'http://localhost:1234/index.html',
 };
 
 const config = {

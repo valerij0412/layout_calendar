@@ -1,0 +1,23 @@
+$cell-size: 100px;
+$cell-column-gap: 1px;
+$cell-row-gap: 1px;
+$calendar-columns: 7;
+$calendar-rows: 6;
+$calendar-padding-x: 10px;
+$calendar-padding-y: 0;
+$cell-color: #eee;
+$cell-hover-color: #ffbfcb;
+$border-color: black;
+$font-size: 30px;
+$font-family: Arial !important;
+$hover-translate: -20px;
+$transition-duration: 0.5s;
+$start-day-offsets: (
+  sun: 6,
+  mon: 0,
+  tue: 1,
+  wed: 2,
+  thu: 3,
+  fri: 4,
+  sat: 5,
+);
