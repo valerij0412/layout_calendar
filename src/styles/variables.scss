@@ -9,7 +9,7 @@ $cell-color: #eee;
 $cell-hover-color: #ffbfcb;
 $border-color: black;
 $font-size: 30px;
-$font-family: Arial !important;
+$font-family: Arial, sans-serif;
 $hover-translate: -20px;
 $transition-duration: 0.5s;
 $start-day-offsets: (
@@ -21,3 +21,4 @@ $start-day-offsets: (
   fri: 4,
   sat: 5,
 );
+$col-step: 101px;

@@ -56,23 +56,27 @@ body {
       background-color: $cell-hover-color;
     }
 
+
+
+
     @for $i from 1 through 31 {
-      &:nth-child(#{$i})::after {
+        &:nth-child(#{$i})::before {
         content: '#{$i}';
       }
     }
   }
 
-  @for $length from 28 through 31 {
-    &--month-length-#{$length} {
+    @for $length from 28 through 31 {
+       &--month-length-#{$length} {
       .calendar__day:nth-child(n + #{$length + 1}) {
         display: none;
       }
     }
   }
+}
 
 
-   $start-day-offsets: (
+  $start-day-offsets: (
     sun: 6,
     mon: 0,
     tue: 1,
@@ -82,25 +86,14 @@ body {
     sat: 5,
   );
 
+
   $col-step: $cell-size + $cell-column-gap;
 
-  @each $key, $offset in $start-day-offsets {
-    .calendar--start-day-#{$key} .calendar__day:nth-child(1) {
-      margin-left: $offset * $col-step;
-    }
+  @each $day, $offset in $start-day-offsets {
+    .calendar--start-day-#{$day} {
+    .calendar__day:nth-of-type(1) {
+     margin-left: $offset * $col-step;
 
-    &.calendar--start-day-#{$key}::before {
-      content: '';
-      display: flex;
-      justify-content: flex-start;
-      flex: 0 0 auto;
-      height: $cell-size;
-
-      @if $offset > 0 {
-        width: calc((#{$offset} * #{$col-step}) - #{$cell-column-gap});
-      } @else {
-        width: 0;
-      }
     }
   }
 }
