@@ -21,4 +21,4 @@ $start-day-offsets: (
   fri: 4,
   sat: 5,
 );
-$col-step: 101px;
+$col-step: $cell-size + $cell-column-gap;
