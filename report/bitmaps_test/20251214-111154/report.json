@@ -1,0 +1,113 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Calendar_initial_state.png",
+        "test": "..\\bitmaps_test\\20251214-111154\\Calendar_initial_state.png",
+        "selector": "body",
+        "fileName": "Calendar_initial_state.png",
+        "label": "Calendar initial state",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "http://localhost:8080/index.html",
+        "referenceUrl": "http://localhost:1234/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 18.4173583984375,
+          "misMatchPercentage": "18.42",
+          "analysisTime": 81
+        },
+        "diffImage": "..\\bitmaps_test\\20251214-111154\\failed_diff_Calendar_initial_state.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Calendar_day_with_hover_effect.png",
+        "test": "..\\bitmaps_test\\20251214-111154\\Calendar_day_with_hover_effect.png",
+        "selector": "body",
+        "fileName": "Calendar_day_with_hover_effect.png",
+        "label": "Calendar day with hover effect",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "http://localhost:8080/index.html",
+        "referenceUrl": "http://localhost:1234/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 19.800440470377602,
+          "misMatchPercentage": "19.80",
+          "analysisTime": 87
+        },
+        "diffImage": "..\\bitmaps_test\\20251214-111154\\failed_diff_Calendar_day_with_hover_effect.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Calendar_starting_from_Wednesday.png",
+        "test": "..\\bitmaps_test\\20251214-111154\\Calendar_starting_from_Wednesday.png",
+        "selector": "body",
+        "fileName": "Calendar_starting_from_Wednesday.png",
+        "label": "Calendar starting from Wednesday",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "http://localhost:8080/index.html",
+        "referenceUrl": "http://localhost:1234/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 21.52125040690104,
+          "misMatchPercentage": "21.52",
+          "analysisTime": 42
+        },
+        "diffImage": "..\\bitmaps_test\\20251214-111154\\failed_diff_Calendar_starting_from_Wednesday.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Calendar_with_length_of_29_days.png",
+        "test": "..\\bitmaps_test\\20251214-111154\\Calendar_with_length_of_29_days.png",
+        "selector": "body",
+        "fileName": "Calendar_with_length_of_29_days.png",
+        "label": "Calendar with length of 29 days",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "http://localhost:8080/index.html",
+        "referenceUrl": "http://localhost:1234/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet_h",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 21.262105305989586,
+          "misMatchPercentage": "21.26",
+          "analysisTime": 84
+        },
+        "diffImage": "..\\bitmaps_test\\20251214-111154\\failed_diff_Calendar_with_length_of_29_days.png"
+      },
+      "status": "fail"
+    }
+  ]
+}
